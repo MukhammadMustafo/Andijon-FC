@@ -1,0 +1,356 @@
+.hero-wrapper {
+    padding-top: 40px;
+    padding-bottom: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-first__wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    width: 547px;
+    height: 790px;
+    padding: 0 0 19px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../assets/image/hero-img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top 79px;
+
+    h4 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    a {
+        width: 250px;
+        height: 50px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        // border: 1px solid #BF0000;
+    }
+
+    a::after {
+        content: "";
+        width: 31px;
+        height: 1px;
+        display: block;
+        background-color: #BF0000;
+        margin-left: 10px;
+    }
+}
+
+.hero-secund__wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    width: 768px;
+    height: 365px;
+    padding: 0 0 29px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../assets/image/hero-cap.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 24px;
+
+    h4 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    a {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 35px;
+        color: #000000;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    a::after {
+        content: "";
+        width: 31px;
+        height: 1px;
+        display: block;
+        background-color: #BF0000;
+        margin-left: 10px;
+    }
+}
+
+.hero-third-and-fourth_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-third__wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    width: 365px;
+    height: 365px;
+    padding: 0 0 25px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../assets/image/hero-slipper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    h4 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    a {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    a::after {
+        content: "";
+        width: 31px;
+        height: 1px;
+        display: block;
+        background-color: #BF0000;
+        margin-left: 10px;
+    }
+}
+
+.hero-fourth__wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    width: 371px;
+    height: 365px;
+    padding: 0 0 25px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../../assets/image/hero-bag.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top -18px;
+
+    h4 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    a {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    a::after {
+        content: "";
+        width: 31px;
+        height: 1px;
+        display: block;
+        background-color: #BF0000;
+        margin-left: 10px;
+    }
+}
+
+.collect-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        border-radius: 20px;
+        width: 390px;
+        height: 550px;
+    }
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: #BF0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h2::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #BF0000;
+    // border: 3px solid #BF0000;
+    margin-left: 56px;
+}
+
+h2::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #BF0000;
+    // border: 3px solid #BF0000;
+    margin-right: 56px;
+}
+
+.collect-wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    img {
+        border-radius: 22px;
+        width: 250px;
+        height: 400px;
+    }
+}
+
+.shirt-title__wrapper {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    span {
+        display: block;
+        width: 65%;
+        height: 2px;
+        background-color: #BF0000;
+    }
+}
+
+.shirt-title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: #BF0000;
+    width: 990px;
+    margin: 0 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shirt-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-bottom: 100px;
+
+    li {
+        .shirt-lorem {
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 29px;
+            color: #BF0000;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .shirt-lorem::after {
+            content: "";
+            background-image: url(../../assets/image/shirt-plus.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+
+            h3:first-child {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 35px;
+                color: #000000;
+            }
+
+            h3:last-child {
+                font-family: 'Jost';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 35px;
+                text-decoration-line: line-through;
+                color: #000000;
+                margin-left: 22.7px;
+            }
+        }
+    }
+}
+
+.shirt_img {
+    width: 250px;
+    height: 250px;
+}
+
+.shirt_star{
+    width: 90px;
+}
+
+.shirt-item{
+    h3{
+        margin-left: 0;
+    }
+}

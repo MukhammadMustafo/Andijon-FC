@@ -1,26 +1,189 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500&family=Great+Vibes&family=Jost:wght@400;500;600;700;800;900&family=Poppins:wght@500;600;700;800;900&display=swap');
 
-img{
-    width: 100vw;
+.container {
+  box-sizing: border-box;
+  width: 1400px;
 }
 
-.swiper {
-    width: 100%;
-    top: -280px;
-    padding-bottom: 50px;
+img {
+  width: 100vw;
+}
+
+.hero_list {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  background-repeat: repeat;
+  flex-wrap: none;
+  justify-content: space-between;
+  align-items: center;
+
+  .hero_item {
+    width: 250px;
+    height: 320px;
+    border-radius: 12px;
+    margin-top: -15%;
+    // transform: scale(1.11);
+    transition: ease 0.9s;
+
+    img {
+      width: 250px;
+      height: 320px;
+      border-radius: 10px;
+    }
+
+    .hero_text {
+      margin-top: -50%;
+      color: #fff;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+
+      p {
+        margin-top: -40px;
+      }
+    }
   }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 350px;
-    height: 500px;
-    border-radius: 10%;
+}
+
+.hero_item:hover {
+  transform: scale(1.22);
+  // transition: ease 0.5s;
+}
+
+.times {
+  display: flex;
+  margin-top: 94px;
+  border: 1px solid #BF0000;
+
+  img {
+    height: 510.8125px;
+    width: 771.58740234375px;
+    margin-left: 0px;
+    border-radius: 0px;
+
   }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
+
+}
+
+.times_left {
+  .times_text {
+    height: 204.04257202148438px;
+    width: 557.1018676757812px;
+    left: 914.1328125px;
+    margin-top: 150px;
+    border-radius: nullpx;
+    font-family: Jost;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
   }
-  
+}
+
+.times_btn {
+  height: 42px;
+  width: 88px;
+  margin-left: 450px;
+  margin-top: 100px;
+  border-radius: nullpx;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px;
+  // letter-spacing: 0em;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+  background-color: #fff;
+  border-color: #BF0000;
+  color: #BF0000;
+}
+
+.team {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 703px;
+  margin-top: 120px;
+  background-image: url('../../assets/image/Rectangle\ 1162.png');
+
+  .team_list {
+    ul {
+      padding-left: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+
+        img {
+          height: 380px;
+          width: 430px;
+          margin-top: 103.5px;
+          top: 1746.1328125px;
+          border-radius: 0px;
+          z-index: 1;
+        }
+
+        .team_text {
+          height: 69.74291229248047px;
+          width: 398.411376953125px;
+          border-radius: 0px;
+          background-color: white;
+          margin-top: -50px;
+          padding-left: 10px;
+          text-align: center;
+          z-index: 2;
+        }
+
+      }
+    }
+  }
+}
+
+.team_video {
+  display: flex;
+  // justify-content: space-between;
+  img {
+    height: 130px;
+    width: 474px;
+    margin-left: 490px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
+  }
+  .team_vid-btn{
+    margin-top: 170px;
+    border: none;
+    background-color: #fff;
+    color: #BF0000;
+  }
+}
+
+.girona{
+  background-image: url('./../../assets/image/girona-banner.png');
+  width: 100vw;
+  ul{
+    padding-left: 0;
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    list-style-type: none;
+    li{
+      iframe{
+        width: 435px;
+        height: 250px;
+      }
+      width: 435px;
+      height: 420px;
+    }
+  }
+}
+

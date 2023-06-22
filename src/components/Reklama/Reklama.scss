@@ -1,0 +1,34 @@
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    transition: transform 0.5s ease;
+    margin-top: 40px;
+    img{
+        width: 150px;
+    }
+  }
+
+  hr{
+    margin: 50px;
+    width: 100%;
+    
+    border: 1px solid #b70505;
+  }
+  
+  .slide {
+      
+     
+    flex: 0 0 30%; // Adjust the width of each slide as needed
+          
+         
+    padding: 10px; }
+
+    .logo-slider {
+  
+ 
+      width: 100%;
+        
+       
+      overflow: hidden;}
